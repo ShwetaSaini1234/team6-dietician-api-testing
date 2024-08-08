@@ -1,0 +1,25 @@
+feature,tcNo,FirstName,LastName,ContactNumber,Email,Allergy,FoodPreference,CuisineCategory,DateOfBirth,statusCode,ErrorMessage
+Create Patient,CP_02,pattwo,Pattwol,1122334406,pattwo@email.com,Soy,Vegan,indian,1999-05-14,400,Patient already exists with given DateOfBirth and ContactNumber
+Create Patient,CP_04, ,Pattwol,1122334406,pattwo@email.com,Soy,Vegan,indian,1999-08-08,400,User First Name is Mandatory!
+Create Patient,CP_05,1234,Pattwol,1122334406,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,FirstName should only contain Alphabets!
+Create Patient,CP_06,pattwo,,1122334406,pat@gmail.com,Soy,Vegan,indian,1999-05-14,400,User Last Name is Mandatory!
+Create Patient,CP_07,Pat,1234,1122334406,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,LastName should only contain Alphabets
+Create Patient,CP_08,Pat,Smith, ,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,Contact number should contain 10 digits
+Create Patient,CP_09,Pat,Smith,Qawsdd,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,Contact number should contain 10 digits
+Create Patient,CP_10,Pat,Smith,112233,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,Contact number should contain 10 digits
+Create Patient,CP_11,Pat,Smith,1234567891234,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,Contact number should contain 10 digits
+Create Patient,CP_12,Pat,Smith,1122334407, ,Soy,Vegan,indian,1989-08-09,400,Email Id is Mandatory
+Create Patient,CP_13,Pat,Smith,1122334408,123,Soy,Vegan,indian,1989-08-09,400, Email should start with a letter
+Create Patient,CP_14,Pat,Smith,1122334401, q@gmailcom,Soy,Vegan,indian,1989-08-09,400, Email should start with a letter
+Create Patient,CP_15,Pat,Smith,1122334402,pattwo@email.com, ,Vegan,indian,1989-08-09,400,Allergy information required!
+Create Patient,CP_16,Pat,Smith,1122334403,pattwo@email.com,Rice,Vegan,indian,1989-08-09,400,Invalid Allergy
+Create Patient,CP_17,Pat,Smith,1122334404,pattwo@email.com,Soy, ,indian,1989-08-09,400,Food preference required!
+Create Patient,CP_18,Pat,Smith,1122334410,pattwo@email.com,Soy,Veget,indian,1989-08-09,400,Invalid Food Preference
+Create Patient,CP_19,Pat,Smith,1122334411,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400,Cuisine category required!
+Create Patient,CP_20,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian,1989-08-09,400, Invalid Cuisine Category
+Create Patient,CP_21,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian, ,400,Date Should be in format yyyy-MM-dd
+Create Patient,CP_22,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian, Efqeqfe,400,Date Should be in format yyyy-MM-dd
+Create Patient,CP_23,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian,1989-88-09,400,Invalid month in Date of Birth
+Create Patient,CP_24,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian,1989-88-99,400,Invalid day in Date of Birth
+Create Patient,CP_25,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian,3030-08-08,400,Date of Birth must be a date in the past or in the present
+Create Patient,CP_26,Pat,Smith,1122334412,pattwo@email.com,Soy,Vegan,indian,1800-08-08,400,Invalid date of birth

@@ -1,0 +1,6 @@
+feature,tcNo,FileId,statusCode,ErrorMessage
+"Get Patient By FileId
+",PF_05,Qw,404,Patient Report File not found with FileId
+,PF_06,*&^%,400,Bad Request
+,PF_07,,400,Illegal_Argument
+,PF_08,33ac3da73e6c022b073da36b,404,Patient Report File not found with FileId

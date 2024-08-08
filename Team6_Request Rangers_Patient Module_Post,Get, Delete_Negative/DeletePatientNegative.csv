@@ -1,0 +1,6 @@
+feature,tcNo,PatientId,statusCode,ErrorMessage
+"DeletePatient
+",DP_04,191,404,Patient not found with patientId
+,DP_06, ,405,Method Not Allowed
+,DP_07,Awe,400,Illegal_Argument
+,DP_08,()(,400,Illegal_Argument

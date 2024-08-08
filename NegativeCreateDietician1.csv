@@ -1,0 +1,59 @@
+feature,tcNo,useremail,password,dFirstname,dLastname,dcontactnumber,dDob,DietEmail,hospitalName,hospitalStreet,hospitalCity,hospitalPin,education,statusCode,ErrorMessage
+create dietician ,CD_01,,,John,Smith,1234567890,1955-01-01,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,200,
+,CD_02,,,John,Smith,1234567890,1955-01-01,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,DUPLICATE_ENTITY
+,CD_03,,,John,Smith,1234567890,1966-02-02,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,401,Unauthorized
+,CD_04,,,John,Smith,,1966-02-03,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Contact number should contain 10 digits
+,CD_05,,,John,Smith,12345678901,1966-02-04,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Contact number should contain 10 digits
+,CD_06,,,John,Smith,123456789,1966-02-05,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Contact number should contain 10 digits
+,CD_07,,,John,Smith,string,1966-02-06,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Contact number should contain 10 digits
+,CD_08,,,John,Smith,123456789,1966-02-07,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_09,,,John,Smith,1234567890,,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Date of Birth is Mandatory!
+,CD_10,,,John,Smith,1234567890,1996-17-09,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Date of Birth is Mandatory!
+,CD_11,,,John,Smith,1234567890,2014-28-01,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Date of Birth is Mandatory!
+,CD_12,,,John,Smith,1234567890,2025-12-19,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Date of Birth is Mandatory!
+,CD_13,,,John,Smith,1234567890,dsjdoi,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Bad Request
+,CD_14,,,John,Smith,1234567890,1947-07-13,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,"Dietician's education is required!
+"
+,CD_15,,,John,Smith,1234567890,1966-07-14,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,2323,400,"Dietician's education is required!
+"
+,CD_16,,,John,Smith,1234567890,1966-07-15,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,400,
+,CD_17,,,John,Smith,1234567890,1966-07-16,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,C,400,
+,CD_18,,,John,Smith,1234567890,1966-07-17,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_19,,,John,Smith,1234567890,1966-07-18,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_20,,,John,Smith,1234567890,1966-07-19,John.s@gmail,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Invalid Email Id!
+,CD_21,,,John,Smith,1234567890,1966-07-20,username@-domain.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Invalid Email Id!
+,CD_22,,,John,Smith,1234567890,1966-07-21,test@email.,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Invalid Email Id!
+,CD_23,,,John3,Smith,1234567890,1966-07-22,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,FirstName should only contain Alphabets
+,CD_24,,,43234,Smith,1234567890,1966-07-23,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,FirstName should only contain Alphabets
+,CD_25,,,Sophie*2024,Smith,1234567890,1966-07-24,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,FirstName should only contain Alphabets
+,CD_26,,,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,Smith,1234567890,1966-07-25,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_27,,,J,Smith,1234567890,1966-07-26,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_28,,,,Smith,1234567890,1966-07-27,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,Dietician's firstname is required!
+,CD_29,,,John niva,Smith,1234567890,1966-07-28,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_30,,,John,Smith3,1234567890,1966-07-29,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,LastName should only contain Alphabets
+,CD_31,,,John,2337,1234567890,1966-07-30,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,LastName should only contain Alphabets
+,CD_32,,,John,Smith*4,1234567890,1966-07-31,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,LastName should only contain Alphabets
+,CD_33,,,John,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,1234567890,1966-08-01,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_34,,,John,S,1234567890,1966-08-02,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_35,,,John,,1234567890,1966-08-03,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,400,LastName should only contain Alphabets
+,CD_36,,,John,Smith roy,1234567890,1966-08-04,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_37,,,John,Smith ,1234567890,1966-08-05,John.s@gmail.com,Kaiser,Hamilthon,,123456,Computer Scienc,400,Dietician's hospital city name is required!
+,CD_38,,,John,Smith,1234567890,1966-08-06,John.s@gmail.com,Kaiser,Hamilthon,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,123456,Computer Scienc,400,
+,CD_39,,,John,Smith,1234567890,1966-08-07,John.s@gmail.com,Kaiser,Hamilthon,S,123456,Computer Scienc,400,
+,CD_40,,,John,Smith,1234567890,1966-08-08,John.s@gmail.com,Kaiser,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_41,,,John,Smith,1234567890,1966-08-09,John.s@gmail.com,Kaiser Permanent ,Hamilthon,San Jose,123456,Computer Scienc,201,
+,CD_42,,,John,Smith,1234567890,1966-08-10,John.s@gmail.com,,Hamilthon,San Jose,123456,Computer Scienc,400,Dietician's hospital name is required!
+,CD_43,,,John,Smith,1234567890,1966-08-11,John.s@gmail.com,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_44,,,John,Smith,1234567890,1966-08-12,John.s@gmail.com,H,Hamilthon,San Jose,123456,Computer Scienc,400,
+,CD_45,,,John,Smith,1234567890,1966-08-13,John.s@gmail.com,Kaiser,Hamilthon,San Jose,,Computer Scienc,400,Dietician's hospital pincode is required!
+,CD_46,,,John,Smith,1234567890,1966-08-14,John.s@gmail.com,Kaiser,Hamilthon,San Jose,String,Computer Scienc,400,Pincode should contain 6 digits
+,CD_47,,,John,Smith,1234567890,1966-08-15,John.s@gmail.com,Kaiser,Hamilthon,San Jose,1234567,Computer Scienc,400,Pincode should contain 6 digits
+,CD_48,,,John,Smith,1234567890,1966-08-16,John.s@gmail.com,Kaiser,Hamilthon,San Jose,12345,Computer Scienc,400,Pincode should contain 6 digits
+,CD_49,,,John,Smith,1234567890,1966-08-17,John.s@gmail.com,Kaiser,Hamilthon,San Jose,12345s,Computer Scienc,400,Pincode should contain 6 digits
+,CD_50,,,John,Smith,1234567890,1966-08-18,John.s@gmail.com,Kaiser,Hamilthon,San Jose,12()-%#,Computer Scienc,400,Pincode should contain 6 digits
+,CD_51,,,John,Smith,1234567890,1966-08-19,John.s@gmail.com,Kaiser,Hamilthon,San Jose,12345 6,Computer Scienc,400,Pincode should contain 6 digits
+,CD_52,,,John,Smith,1234567890,1966-08-20,John.s@gmail.com,Kaiser,Hamilthon Avenue,San Jose,123456,Computer Scienc,201,
+,CD_53,,,John,Smith,1234567890,1966-08-21,John.s@gmail.com,Kaiser,,San Jose,123456,Computer Scienc,400,Dietician's hospital street name is required!
+,CD_54,,,John,Smith,1234567890,1966-08-22,John.s@gmail.com,Kaiser,38943,San Jose,123456,Computer Scienc,400,
+,CD_55,,,John,Smith,1234567890,1966-08-23,John.s@gmail.com,Kaiser,hiigfkjpjspjrgjsejgrjspojsijsjogisejroijseoijrijgoijeoijglrjhoijojrohksjlkjkjljisoijoigfjoirjsigjijgirjiojeoijroiejoijgjoeijoeijoijrjgrjgjepohjoijrorrjohjohjorjhijhirjhoijorijhoirjohjrojeojoirjrjojeojgrejoijgorjorijojiejjrekjgklrgngnrjjdkjereojoekjojgijgoejrgojgojgogrjelkjgrgjreojggj,San Jose,123456,Computer Scienc,400,
+,CD_56,,,John,Smith,1234567890,1966-08-24,John.s@gmail.com,Kaiser,H,San Jose,123456,Computer Scienc,400,

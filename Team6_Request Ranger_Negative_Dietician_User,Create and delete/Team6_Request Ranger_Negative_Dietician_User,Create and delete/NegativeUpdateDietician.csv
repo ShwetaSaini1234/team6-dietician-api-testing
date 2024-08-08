@@ -1,0 +1,31 @@
+tcNo,NdietId, uFirstName, uLastName, uContactNumber, uDob, uDietEmail, uHospitalName, uHospitalStreet, uHospitalCity, uHospitalPin, uEducation, statusCode, ErrorMessage
+UD_01,3414, , , , , , , , , , ,400, 
+UD_02,3414,Rawdata,Magi,,2009-05-21,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Dietician's contact number is required!
+UD_03,3414,Rawdata,Magi,1122334455667,2009-05-21,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Contact number should contain 10 digits
+UD_04,3414,Rawdata,Magi,1122367,2009-05-21,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Contact number should contain 10 digits
+UD_05,3414,Rawdata,Magi,Abcdef,2009-05-21,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Contact number should contain 10 digits
+UD_06,3414,Rawdata,Magi,$%#Abc12,2012-10-10,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Contact number should contain 10 digits
+UD_07,3414,Rawdata,Magi,1234567890,,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Date of Birth is Mandatory!
+UD_08,3414,Rawdata,Magi,1234567890,2014-28-07,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,
+UD_09,3414,Rawdata,Magi,1234567890,2034-2-7,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Date of Birth must be a date in the past or in the present
+UD_10,3414,Rawdata,Magi,1234567890,Asdfg,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Date of Birth must be a date in the past or in the present
+UD_11,3414,Rawdata,Magi,1234567890,2014-07-07,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Dietician's education is required!
+UD_12,3414,Rawdata,Magi,1234567890,2014-07-07,magi@email.com,Kaiser,Paseo padre,Fremont,123456,MA,400,Dietician's education is required!
+UD_13,3414,Rawdata,Magi,1234567890,2014-07-07,invalidEmail,Kaiser,Paseo padre,Fremont,123456,MA,400,Invalid Email Id!
+UD_14,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,Invalid Email Id!
+UD_15,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,Invalid Email Id!
+UD_16,3414,Jan124,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,FirstName should only contain Alphabets
+UD_17,3414,12345,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,FirstName should only contain Alphabets
+UD_18,3414,Jan!#$#,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,FirstName should only contain Alphabets
+UD_19,3414,,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,Dietician's firstname is required!
+UD_20,3414,Rawdata,123chin,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,LastName should only contain Alphabets
+UD_21,3414,Rawdata,12345,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,LastName should only contain Alphabets
+UD_22,3414,Rawdata,#@chin,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,LastName should only contain Alphabets
+UD_23,3414,Rawdata,,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123456,MA,400,Dietician's lastname is required!
+UD_24,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,,123456,MA,400,Dietician's hospital city name is required!
+UD_25,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,,Paseo padre,Fremont,123456,MA,400,Dietician's hospital name is required!
+UD_26,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,,MA,400,Pincode should contain 6 digits
+UD_27,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,123,MA,400,Pincode should contain 6 digits
+UD_28,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,Abcs,MA,400,Pincode should contain 6 digits
+UD_29,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,Paseo padre,Fremont,1@@456,MA,400,Pincode should contain 6 digits
+UD-30,3414,Rawdata,Magi,1234567890,2014-07-07,invalid@Email.,Kaiser,,Fremont,123456,MA,400,Dietician's hospital street name is required!

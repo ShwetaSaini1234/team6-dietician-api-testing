@@ -1,0 +1,6 @@
+feature,tcNo,PatientId,statusCode,ErrorMessage
+"Get Patient By FileId
+",PF_05,191,404,Patient not found with patientId
+,PF_06,  ,400,Illegal_Argument
+,PF_07,Abc,400,Illegal_Argument
+,PF_08,!@#,400,Illegal_Argument
