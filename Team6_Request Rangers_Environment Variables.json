@@ -1,0 +1,51 @@
+{
+	"id": "3f9b27d3-a725-46c6-ad0c-e37249904e7c",
+	"name": "New Environment",
+	"values": [
+		{
+			"key": "InvalidURL",
+			"value": "https://dietician-july-api-hackethon1-80f2590665cc.herokuapp.com/dietician",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "http",
+			"value": "http://dietician-july-api-hackathon-80f2590665cc.herokuapp.com/dietician",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "BaseUrl",
+			"value": "https://dietician-july-api-hackathon-80f2590665cc.herokuapp.com/dietician",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "TokenValue",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "DietId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "DietTokenValue",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "patientId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-08-08T17:58:44.641Z",
+	"_postman_exported_using": "Postman/11.7.0-240730-0646"
+}
